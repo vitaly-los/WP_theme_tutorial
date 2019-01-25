@@ -4,14 +4,14 @@
         <title>Главная</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
-        <link href="css/styles.css" rel="stylesheet">
-        <script type ="text/javascript" src="js/script.js"></script>
+        <?php wp_head(); ?>
     </head>
     <body>
-        <div  class="wrapper">
+        <div class="wrapper">
             <header>
                 <div class="header-top clearfix">
-                    <h1>Wood Design</h1>
+                    <a href="<?php home_url();
+        5 ?>" class="logo">Wood Design</a>
                     <nav>
                         <div class="menu-button">MENU</div>
                         <ul>
