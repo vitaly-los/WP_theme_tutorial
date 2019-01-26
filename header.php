@@ -10,10 +10,9 @@
             <header>
                 <div class="header-top clearfix">
                     <a href="<?php
-                    home_url();
-                    5
+                    echo home_url();
                     ?>" class="logo">Wood Design</a>
-                    <nav>
+                    <nav  class="topmenu">
                         <div class="menu-button">MENU</div>
                         <?php
                         wp_nav_menu([

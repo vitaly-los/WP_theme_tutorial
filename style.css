@@ -125,6 +125,10 @@ main .postItem{
 main .postItem:nth-child(2n+3){
     clear: both;
 }
+.postsFlow-item{
+    width: 100%;
+    height: auto;
+}
 main .postItem a{
     display: block;
     padding: 4px;
