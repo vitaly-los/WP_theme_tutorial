@@ -27,4 +27,11 @@ function test_widgets()
         'before_widget' => '<div class="widget %2$s">',
         'after_widget' => "</div>\n",
     ]);
+    register_sidebar([
+        'name' => 'sidebar-top',
+        'id' => 'sidebar-top',
+        'description' => 'Top Column',
+        'before_widget' => '<div class="widget %2$s">',
+        'after_widget' => "</div>\n",
+    ]);
 }
