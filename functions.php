@@ -16,6 +16,9 @@ function test_media()
 function test_after_setup()
 {
     register_nav_menu('top', 'My news Menu');
+
+    add_theme_support('post-thumbnails');
+    add_theme_support('title-tag');
 }
 
 function test_widgets()
