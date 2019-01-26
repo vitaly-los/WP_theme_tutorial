@@ -24,5 +24,7 @@ function test_widgets()
         'name' => 'sidebar-right',
         'id' => 'sidebar-right',
         'description' => 'Right Column',
+        'before_widget' => '<div class="widget %2$s">',
+        'after_widget' => "</div>\n",
     ]);
 }

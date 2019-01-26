@@ -206,17 +206,21 @@ aside ul{
 h2.menu{
     padding: 10px 0;
 }
-.secondery-navigation li:first-child a{
+.widget_categories li:first-child a{
     transition: display 2s;
     border-top: 1px solid #eee;
 }
-.secondery-navigation a{
+.widget_categories li.current-cat a{
+    color: #000;
+}
+
+.widget_categories a{
     text-decoration: none;
     display: block;
     padding: 8px 5px;	
     border-bottom: 1px solid #eee;
 }
-.secondery-navigation a:hover{
+.widget_categories a:hover{
     background: #f9f9f9;
     color: #333;
 }
@@ -291,7 +295,7 @@ footer>span{
         border-top: 1px solid #eee;
         border-bottom: 1px solid #eee;
     }
-    .secondery-navigation ul{
+    .widget_categories ul{
         display:none;
     }
     footer>span, .footer-links{
